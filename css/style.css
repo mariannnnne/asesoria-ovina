@@ -1098,15 +1098,21 @@ height:auto;
 object-fit:cover;
 
 }
-/*=========================================
-Animaciones JS
-=========================================*/
+/*====================================
+CLASES UTILIZADAS POR JAVASCRIPT
+====================================*/
+
+header.scrolled{
+
+    box-shadow:0 12px 30px rgba(0,0,0,.10);
+
+}
 
 .hidden{
 
     opacity:0;
 
-    transform:translateY(40px);
+    transform:translateY(45px);
 
     transition:all .8s ease;
 
@@ -1119,6 +1125,45 @@ Animaciones JS
     transform:translateY(0);
 
 }
-/*==========================================================
-FIN DEL ARCHIVO
-==========================================================*/
+
+.menu a.active{
+
+    color:var(--secondary);
+
+    font-weight:700;
+
+}
+
+.whatsapp{
+
+    transition:.3s;
+
+}
+
+.pulse{
+
+    animation:pulse 1s;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+40%{
+
+transform:scale(1.18);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
