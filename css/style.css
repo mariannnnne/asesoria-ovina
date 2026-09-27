@@ -113,8 +113,9 @@ header{
 }
 
 .logo img{
-     width:50px !important;
-    height:auto !important;
+   width:160px;
+    height:auto;
+    display:block;
 }
 
 .logo h2{
