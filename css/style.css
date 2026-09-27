@@ -113,9 +113,8 @@ header{
 }
 
 .logo img{
-    width:140px;
-    height:auto;
-    display:block;
+     width:50px !important;
+    height:auto !important;
 }
 
 .logo h2{
